@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
+    "start": "node index.js",
+    "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,12 @@
   },
   "homepage": "https://github.com/simondel/stryker-babel-test#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0"
+    "@types/babel-generator": "^6.25.1",
+    "@types/babylon": "^6.16.2",
+    "babel-core": "^6.26.0",
+    "babel-generator": "^6.26.0",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babylon": "^6.18.0",
+    "typescript": "^2.6.1"
   }
 }
