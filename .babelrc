@@ -1,8 +1,0 @@
-{
-<<<<<<< HEAD
-    "plugins": ["babel-plugin-transform-es2015-spread"]
-=======
-    "plugins": ["transform-object-rest-spread"],
-    "presets": ["env"]
->>>>>>> e67eb336b66e62d27e29f1fa7b48953fb0f47a66
-}
