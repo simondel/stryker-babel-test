@@ -1,0 +1,1 @@
+# stryker-babel-test
